@@ -1,0 +1,8 @@
+.paragraph-format{
+    align-items: center;
+    align-content: center;
+    height: 300px;
+    width: 50vw;
+    box-sizing: border-box;
+    border: solid 1px rebeccapurple;
+}
