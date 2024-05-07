@@ -10,12 +10,19 @@
 
 
     <div class="form" name="input-form">
-            <legend>Contatos</legend>
-            <label for="Nome"></label>
-            <input type="text">
-            <form id="envio" action="">
-                <button>Enviar</button>
-            </form>
+             <form id="contact-form">
+                 <h3>Formulário para Contato</h3>                      
+                
+                 <label for="name">Nome:</label>
+                 <input type="text" id="name" placeholder="Nome" required>
+                 <br>
+                 <label for="email">Email:</label>
+                 <input type="text" id="email" placeholder="E-mail" required>
+                 <br>
+                 <input type="text" id="message" rows="4" cols="50" required>
+                 <p><br></p>
+                 <button class="btnEnviar">Enviar</button>
+             </form>
     </div>
 
 
