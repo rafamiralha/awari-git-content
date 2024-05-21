@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegadores</title>
+    <meta name="description" content="Site sobre navegadores">
+    <meta name="keywords" content="broswer, navegador de pesquisa, search">
+    <!-- meta tag  são tags para informação, normalmente a descrição que aparece no google debaixo do link é uma meta description, a keywords é para quando for pesquisar no navegador-->
+    <!--SEMPRE PROCURAR REFERENCIAS EM https://w3schools.com/ -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- O *{
+            padding: 0;
+            margin: 0;
+    }
+    https://color.adobe.com/pt/create/color-wheel
+    SITE P/ PALETAS DE CORES
+É UTILIZADO PELOS DEVS PARA RESETAR AS DEFINIÇÕES DADAS PELO NAVEGADOR 
+PONTO IMPORTANTE PARA RESPONSIVIDADE É A UTILIZAÇÃO DO FLEX BOX OU DO GRID
+QUE PERMITEM CONTROLAR ONDE OS ELEMENTOS SERÃO POSICIONADOS NA PAGINA WEB 
+https://css-tricks.com/almanac/
+SITE PARA CONSULTA SOBRE FLEXBOX E GRID LAYOUT
+-->
+
+<!--<img src="" alt="" width="500px">
+     O PARAMETRO ALT É EXTREMAMENTE IMPORTANTE PARA A FERRAMENTA DO PESQUISADOR  -->
+    <script>
+
+    </script>
+    <header class="header">
+        <h1 class="header-title">Site de Navegadores</h1>
+    </header>
+
+    <div class="card-container">
+        <div class="card">
+            <h1>Chrome</h1>
+            <!-- SE UTILIZA APENAS UM H1 POR PAGINA! -->
+            <P class="texto">Google Chrome is a web browser developed by...</P>
+            <a href="./google-chrome.html">Saber mais</a>
+        </div>
+        <div class="card">
+            <H2>Mozilla Firefox</H2>
+            <P class="texto">Mozilla Firefox is an open-source web broswer developed by...</P>
+            <a href="./mozilla-firefox.html">Saber mais</a>
+        </div>
+
+        <div class="card">
+            <H2>Microsoft Edge</H2>
+            <P class="texto">Microsoft Edge is a web browser developed by Microsoft...</P>
+            <a href="./microsof-edge.html">Saber mais</a>
+        </div>
+        <div class="card-detector" onclick="alert(detectNav())">
+            <p>Detectar meu navegador</p>
+        </div>
+    </div>
+</body>
+</html>
