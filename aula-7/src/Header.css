@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(27, 27, 139);
+    
+}
+.header-title{
+    color: white;
+    padding-left: 20px;
+}
