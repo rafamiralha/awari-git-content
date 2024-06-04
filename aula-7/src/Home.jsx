@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Header from "./Header";
 import Card from "./Card";
 import './index.css';
@@ -11,21 +10,18 @@ function Home () {
         <Card 
           title = "Chrome"
           description = " A browser called google"
-          link = "link logo"
+          link = "/details/google-chrome"
         />
         <Card
           title = "Mozilla"
           description = " A browser called firefox"
-          link = "link logo"
+          link = "/details/mozilla-firefox"
         />
         <Card
           title = "Edge"
           description = " A browser called Edge"
-          link = "link logo"
+          link = "/details/microsoft-edge"
         />
-        <Link to="/details/google-chrome">Chrome</Link>
-        <Link to="/details/mozilla-firefox">Mozilla</Link>
-        <Link to="/details/microsoft-edge">Edge</Link>
       </div>
  
 

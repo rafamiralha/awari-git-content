@@ -1,21 +1,23 @@
 import { useParams } from "react-router-dom";
 import Header from "./Header";
+import "./Card.css";
+import Card from "./Card";
 function Details () {
   const navegadores = {
     "google-chrome":{
       name: "Chrome",
       description: " A browser called google",
-      image: "fake logo"
+      
     },
     "mozilla-firefox":{
       name: "Mozilla",
       description: " A browser called firefox",
-      image: "fake logo"
+     
     },
     "microsoft-edge":{
       name: "Edge",
       description: " A browser called Edge",
-      image: "fake logo" 
+      
     }
  
 
@@ -27,9 +29,14 @@ function Details () {
   return (
     <div>
      <Header/>
-    <h1>details</h1>
-    <h2>{navegadores[id]?.name || "Navegador Não encontrado"}</h2>
-    <p>{navegadores[id]?.description}</p>
+     <div className="card-container">
+      <Card
+          title = {navegadores[id]?.name || "Navegador Não encontrado"}
+          description = {navegadores[id]?.description}
+
+        />
+     </div>
+
     </div>
   );
 }

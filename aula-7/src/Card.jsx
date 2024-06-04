@@ -5,7 +5,8 @@ function Card({title, description, link}) {
     <div className='card'>
     <h2 className='card-title'>{title} </h2>
     <p className='card-description'>{description}</p>
-    <a className='card-link' href={link} target='_blank' rel='noopener noreferrer'>{link}</a>
+    <Link to={link}>Saiba mais</Link>
+   
     </div>
   );
 }
