@@ -1,8 +1,11 @@
-import './Header.css'
-function Card() {
+import './Card.css';
+import { Link } from "react-router-dom";
+function Card({title, description, link}) {
   return (
-    <div className='wrapper'>
-    <h1 className='header-title'>Blog dos navegadores</h1>
+    <div className='card'>
+    <h2 className='card-title'>{title} </h2>
+    <p className='card-description'>{description}</p>
+    <a className='card-link' href={link} target='_blank' rel='noopener noreferrer'>{link}</a>
     </div>
   );
 }
