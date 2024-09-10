@@ -1,0 +1,11 @@
+{
+  "name": "awari-git-content",
+  "version": "1.0.0",
+  "description": "Nesta prática, criaremos uma página HTML simples, com a mensagem “Hello World!” (“Olá, mundo!”, em tradução livre) na tela.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
