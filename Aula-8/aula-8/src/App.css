@@ -1,0 +1,32 @@
+.Nav-list {
+  list-style: none;
+  display: flex;
+}
+.Nav-list li {
+  letter-spacing: 2px;
+  margin-left: 32px;
+}
+.Logo{
+  font-size: 24px;
+  letter-spacing: 2px;
+
+}
+.Link-nav {
+  text-decoration: none;
+  color:rgb(255, 254, 254);
+  transition: 0.4s;
+}
+.Link-nav:hover{
+
+  opacity: 0.6;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  width:100vw;
+  height: 8vh;  
+} 
