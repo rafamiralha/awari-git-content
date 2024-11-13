@@ -1,4 +1,4 @@
-function User({ user }) {
+function User({ user}) {
     return(
       <li>
       <p>{user.name}</p>
